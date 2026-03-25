@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color-background-claro);
+    display: grid;
+    font-style: "JetBrains Mono";
+    font-size: 1.25rem;
+}
+
+.quem-somos{
+    padding: 1rem 8vw;
+    display: flex;
+}
+
+.section-quem-somos{
+    padding: 5% 0% 5% 5%;
+    height:100%; /*??*/
+}
+
+.imagem-quem-somos{
+    height: fit-content; /*Tentando fazer a imagem ficar do mesmo tamanho do paragrafo*/
+    width: 50%;
+}
+
+
+.titulo{
+    text-align: center;
+}
+
+:root{
+    --color-background-claro: white;
+    --height-header: 65px;
+    --color-principal: #36454F;
+    --color-header-hover: #eeeeee;
+    --color-sombra: #9ba8b1;
+}

@@ -1,0 +1,19 @@
+@import url(header.css);
+@import url(style.css);
+
+.imagem-borrada{
+    width: 100vw;
+
+    max-width: 100%; /*não ultrapassar o body*/
+    height: 65vh;
+
+    object-fit: cover;
+}
+
+.titulo{
+
+}
+
+.pragrafo{
+    
+}
