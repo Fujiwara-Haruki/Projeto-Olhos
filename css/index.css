@@ -10,10 +10,36 @@
     object-fit: cover;
 }
 
+
+.quem-somos{
+    padding: 7% 8vw;
+    display: flex;
+}
+
+.section-quem-somos{
+    padding: 5% 0% 5% 5%;
+    height:100%; /*??*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-quem-somos{
+    height: fit-content; /*Tentando fazer a imagem ficar do mesmo tamanho do paragrafo*/
+    width: 50%;
+    border-radius: 10px;
+}
+
 .titulo{
-
+ padding-bottom: 5%
 }
 
-.pragrafo{
-    
+.subtitulo{
+    padding-bottom: 5%;
 }
+
+.paragrafo{
+    text-align: justify;
+}
+
