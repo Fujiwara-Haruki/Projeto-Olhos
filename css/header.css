@@ -1,9 +1,13 @@
 .header{
     min-height: var(--height-header);
-    background-color: var(--color-background-claro);
+    background-color: var(--color-background-claro-1);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
 .menu_1{
@@ -37,7 +41,7 @@
     height: 100%;
     margin: -1.5rem 0rem;
 
-    background-color: var(--color-background-claro);
+    background-color: var(--color-background-claro-1);
     
 }
 

@@ -5,10 +5,11 @@
 }
 
 body{
-    background-color: var(--color-background-claro);
+    background-color: var(--color-background-claro-1);
     display: grid;
     font-style: "JetBrains Mono";
     font-size: 1.25rem;
+    max-width: 100vw;
 }
 
 
@@ -18,7 +19,8 @@ body{
 
 
 :root{
-    --color-background-claro: white;
+    --color-background-claro-1: white;
+    --color-background-claro-2: #eeeeee;
     --height-header: 65px;
     --color-principal: #36454F;
     --color-header-hover: #eeeeee;

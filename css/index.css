@@ -2,10 +2,10 @@
 @import url(style.css);
 
 .imagem-borrada{
-    width: 100vw;
 
+    width: 100vw;
     max-width: 100%; /*não ultrapassar o body*/
-    height: 65vh;
+    height: 90vh;
 
     object-fit: cover;
 }
@@ -43,3 +43,30 @@
     text-align: justify;
 }
 
+
+.equipe{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-background-claro-2);
+    justify-content: center;
+}
+
+.equipe h1{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.img-membros{
+    height: fit-content;
+    width: 15vw;
+}
+
+.membros-equipe-individual{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
