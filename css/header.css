@@ -62,11 +62,11 @@
 
 }
 
-.menu_1 li:hover ul{
+.menu_1 li:hover ul, .menu_1 li:focus ul{
     display: block;
 }
 
-.menu_1 li a:hover {
+.menu_1 li a:hover, .menu_1 li a:focus{
     background-color: var(--color-header-hover);
     box-shadow: 2px 2px 5px var(--color-sombra);
    
