@@ -71,8 +71,19 @@
 
 }
 
-.materiais{
+.contatos{
     background-color: var(--color-background-claro-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.materiais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
