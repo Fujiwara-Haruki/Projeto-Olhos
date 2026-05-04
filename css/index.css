@@ -26,7 +26,7 @@
 }
 
 .imagem-quem-somos{
-    height: fit-content; /*Tentando fazer a imagem ficar do mesmo tamanho do paragrafo*/
+    height: fit-content;
     width: 50%;
     border-radius: 10px;
 }
@@ -69,4 +69,37 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.materiais{
+    background-color: var(--color-background-claro-2);
+}
+
+
+@media (width < 950px){
+    .quem-somos{
+        align-items: center;
+        padding: 7% 5vw;
+    }
+
+}
+
+@media (width < 765px){
+    .quem-somos{
+        flex-direction:column-reverse;
+    }
+
+    .imagem-quem-somos{
+        width: 80vw;
+        
+    }
+    .img-membros{
+        width: 19vw;
+}
+}
+
+@media (width < 448px){
+    .img-membros{
+        width: 30vw;
+    }
 }
